@@ -1,0 +1,28 @@
+body {
+  background-color: var(--background-primary);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+:root {
+  color-scheme: light dark;
+  --background-primary: #eeeeee;
+  --text-primary: #212121;
+  --text-secondary: #6e6e6e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-primary: #131313;
+    --text-primary: #eeeeee;
+    --text-secondary: #b8b8b8;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

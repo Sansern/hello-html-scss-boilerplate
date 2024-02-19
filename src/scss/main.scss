@@ -1,0 +1,24 @@
+@import 'color-system';
+@import './components/body';
+@import './components/text';
+
+
+:root {
+    color-scheme: light dark;
+    --background-primary: #{$background-primary-light};
+    --text-primary: #{$text-primary-light};
+    --text-secondary: #{$text-secondary-light};
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-primary: #{$background-primary-dark};
+        --text-primary: #{$text-primary-dark};
+        --text-secondary: #{$text-secondary-dark};
+    }   
+}
+
+
+
+
+
